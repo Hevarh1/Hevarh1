@@ -20,21 +20,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" height="40" alt="Android"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="Java"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" height="40" alt="Kotlin"/>
-  <img src="https://github.com/devicons/devicon/tree/v2.16.0/icons/laravel/laravel-plain.svg" height="40" alt="Laravel"/>
+  <i class="devicon-laravel-plain colored" style="font-size: 40px;"></i>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="40" alt="WordPress"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="HTML"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="CSS"/>
 </p>
-
----
-
-### 📊 GitHub Stats:
-![Hevar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hevarh1&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hevarh1&layout=compact&theme=radical)
-
----
-
-### 🎵 Music Playing:
-[![Spotify](https://novatorem-Hevarh1.vercel.app/api/spotify)](https://open.spotify.com/user/yourspotifyusername)
-
