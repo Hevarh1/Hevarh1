@@ -10,6 +10,7 @@
 - 💬 Ask me about **Android Development**, **Laravel**, **WordPress**, and **Web Development**.
 - 📫 How to reach me: **hevarh@gmail.com**
 
+
 ### 🌐 Connect with Me:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230A66C2.svg?&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hevar-hemin/)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hevarh1)
@@ -29,4 +30,9 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="32" alt="HTML"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="32" alt="CSS"/>
 </p>
+
+### 📊 GitHub Overview
+| Stats | Languages |
+|-------|-----------|
+| ![Hevar's GitHub stats](https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=radical&hide=prs,issues,stars) | ![Top Langs](https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=radical) |
 
