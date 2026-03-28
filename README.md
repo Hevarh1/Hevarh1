@@ -69,7 +69,7 @@
 <!-- Stats + Languages side by side -->
 | 📈 GitHub Stats | 🗂️ Top Languages |
 |:-:|:-:|
-| ![Hevar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=tokyonight&hide=prs,issues) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=tokyonight&langs_count=8) |
+| ![Hevar's GitHub Stats](https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&include_all_commits=true&show_icons=true&theme=tokyonight&hide=prs,issues,stars) | ![Top Languages](https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=tokyonight&langs_count=8) |
 
 <!-- Streak stats -->
 [![GitHub Streak](https://streak-stats.demolab.com?user=Hevarh1&theme=tokyonight&hide_border=false&border_radius=5)](https://git.io/streak-stats)
@@ -91,4 +91,3 @@
 *"Great software is built one commit at a time."*
 
 </div>
-
