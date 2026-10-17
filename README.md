@@ -50,8 +50,8 @@ Collaborations, freelance projects, and engineering opportunities.
 
 ## 🛠️ Tech Stack
 
-### Mobile Development
-<p>
+<h3 align="center">Mobile Development</h3>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="48" height="48" alt="Android"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" width="48" height="48" alt="Kotlin"/>
@@ -65,8 +65,8 @@ Collaborations, freelance projects, and engineering opportunities.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg" width="48" height="48" alt="Apple"/>
 </p>
 
-### Backend, Web & Systems
-<p>
+<h3 align="center">Backend, Web & Systems</h3>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="48" height="48" alt="Laravel"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="48" height="48" alt="PHP"/>
@@ -80,8 +80,8 @@ Collaborations, freelance projects, and engineering opportunities.
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg" width="48" height="48" alt="Rust"/>
 </p>
 
-### Frontend & Tools
-<p>
+<h3 align="center">Frontend & Tools</h3>
+<p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5"/>
   &nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3"/>
@@ -100,8 +100,6 @@ Collaborations, freelance projects, and engineering opportunities.
 ## 📊 GitHub Statistics
 
 <div align="center">
-
-### 📈 Stats & Streak
 <p>
   <img src="https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true" alt="GitHub Stats" height="170"/>
   <img src="https://streak-stats.demolab.com/?user=Hevarh1&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170"/>
@@ -111,7 +109,6 @@ Collaborations, freelance projects, and engineering opportunities.
   <img src="https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" alt="Top Languages" height="170"/>
 </p>
 
-### 📉 Contribution Graph
 <img src="https://github-activity-graph.vercel.app/graph?username=Hevarh1&theme=tokyo-night&bg_color=0d1117&color=58a6ff&line=79c0ff&point=1f6feb&area=true&hide_border=true" alt="Contribution Graph" width="100%"/>
 
 </div>
