@@ -5,7 +5,7 @@
 ### Software Engineer | Mobile & Web Developer
 
 <p align="center">
-  <em>Building mobile apps and web platforms from <strong>Sulaymaniah, Iraq</strong></em>
+  <em>Building mobile apps and web platforms from <strong>Erbil, Iraq</strong></em>
 </p>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hevar-hemin/)
