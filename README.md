@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg?v=4" alt="Hevar Hemin, Software Engineer. Mobile and web developer." width="100%"/>
+<img src="assets/hero.svg?v=5" alt="Hevar Hemin, Software Engineer. Mobile and web developer." width="100%"/>
 
 <br/>
 
@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-30363D?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hevarh1)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hevarh@gmail.com)
 
-<img src="https://komarev.com/ghpvc/?username=Hevarh1&color=58A6FF&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=Hevarh1&color=E8743B&style=for-the-badge&label=Profile+Views" alt="Profile Views"/>
 
 </div>
 
@@ -25,7 +25,7 @@
 
 ## 🚀 What I Build
 
-<img src="assets/build.svg?v=4" alt="Mobile, Web, and Systems & Data" width="100%"/>
+<img src="assets/build.svg?v=5" alt="Mobile, Web, and Systems & Data" width="100%"/>
 
 ---
 
@@ -164,29 +164,29 @@
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=tokyonight&hide_border=true&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&include_all_commits=true"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=default&hide_border=true&title_color=0969DA&icon_color=0969DA&text_color=24292F&include_all_commits=true"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=gruvbox&hide_border=true&title_color=E8743B&icon_color=E9B44C&text_color=F2E9DA&bg_color=1F1A16&include_all_commits=true"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&theme=gruvbox_light&hide_border=true&title_color=C4501F&icon_color=B9791A&text_color=231D17&bg_color=FFFAF0&include_all_commits=true"/>
     <img src="https://stats-woad-two.vercel.app/api?username=Hevarh1&count_private=true&show_icons=true&hide_border=true&include_all_commits=true" alt="GitHub Stats" height="170"/>
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Hevarh1&theme=tokyonight&hide_border=true"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Hevarh1&theme=default&hide_border=true"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Hevarh1&theme=gruvbox&hide_border=true"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=Hevarh1&theme=gruvbox-light&hide_border=true"/>
     <img src="https://streak-stats.demolab.com/?user=Hevarh1&hide_border=true" alt="GitHub Streak" height="170"/>
   </picture>
 </p>
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=tokyonight&hide_border=true&title_color=58A6FF&text_color=C9D1D9"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=default&hide_border=true&title_color=0969DA&text_color=24292F"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=gruvbox&hide_border=true&title_color=E8743B&text_color=F2E9DA&bg_color=1F1A16"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&theme=gruvbox-light&hide_border=true&title_color=C4501F&text_color=231D17&bg_color=FFFAF0"/>
     <img src="https://stats-woad-two.vercel.app/api/top-langs/?username=Hevarh1&count_private=true&layout=compact&hide_border=true" alt="Top Languages" height="170"/>
   </picture>
 </p>
 
 ### 📉 Contribution Graph
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=Hevarh1&theme=tokyo-night&bg_color=0d1117&color=58a6ff&line=79c0ff&point=1f6feb&area=true&hide_border=true"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=Hevarh1&theme=github&bg_color=ffffff&color=0969da&line=0969da&point=1f6feb&area=true&hide_border=true"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-activity-graph.vercel.app/graph?username=Hevarh1&theme=tokyo-night&bg_color=1f1a16&color=e8743b&line=e9b44c&point=e8743b&area=true&hide_border=true"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://github-activity-graph.vercel.app/graph?username=Hevarh1&theme=github&bg_color=fffaf0&color=c4501f&line=b9791a&point=c4501f&area=true&hide_border=true"/>
   <img src="https://github-activity-graph.vercel.app/graph?username=Hevarh1&area=true&hide_border=true" alt="Contribution Graph" width="100%"/>
 </picture>
 

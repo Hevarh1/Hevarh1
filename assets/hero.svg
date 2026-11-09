@@ -1,22 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Hevar Hemin, Software Engineer. Mobile, web and systems.">
   <style>
     :root {
-      --bg1: #0d1117; --bg2: #161b22; --line: #30363d;
-      --text: #e6edf3; --muted: #8b949e;
-      --a: #58a6ff; --b: #bc8cff; --c: #3fb950; --d: #f78166;
-      --card: #1c2128; --chip: #21262d;
+      --bg1: #171310; --bg2: #171310; --line: #3a322b;
+      --text: #f2e9da; --muted: #a39682;
+      --a: #e8743b; --b: #e9b44c; --c: #94b57a; --d: #d9534f;
+      --card: #1f1a16; --chip: #261f1a;
     }
     @media (prefers-color-scheme: light) {
       :root {
-        --bg1: #ffffff; --bg2: #eef2f7; --line: #d0d7de;
-        --text: #1f2328; --muted: #59636e;
-        --a: #0969da; --b: #8250df; --c: #1a7f37; --d: #cf222e;
-        --card: #ffffff; --chip: #ffffff;
+        --bg1: #f7f1e5; --bg2: #f7f1e5; --line: #d9cdb8;
+        --text: #231d17; --muted: #6f6454;
+        --a: #c4501f; --b: #b9791a; --c: #4f7a3a; --d: #b3342f;
+        --card: #fffaf0; --chip: #fffaf0;
       }
     }
     .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .name { font-size: 54px; font-weight: 800; fill: url(#grad); }
+    .name { font-size: 54px; font-weight: 800; fill: var(--text); letter-spacing: -1px; }
     .role { font-size: 20px; fill: var(--text); font-weight: 600; }
     .sub  { font-size: 14px; fill: var(--muted); }
     .chip-t { font-size: 12px; fill: var(--text); font-weight: 600; }
@@ -43,9 +43,6 @@
 
   <g clip-path="url(#round)">
     <rect width="1000" height="340" fill="url(#bg)"/>
-    <rect width="1000" height="340" fill="url(#grid)"/>
-    <rect width="1000" height="340" fill="url(#glow)"/>
-    <rect width="1000" height="340" fill="url(#glow2)"/>
   </g>
   <rect x=".5" y=".5" width="999" height="339" rx="20" fill="none" stroke="var(--line)"/>
 
@@ -57,8 +54,9 @@
       <text x="22" y="11" class="mono sub">open to collabs &amp; freelance</text>
     </svg>
     <text x="56" y="140" class="name">Hevar Hemin</text>
-    <text x="58" y="180" class="role">Software Engineer</text>
-    <text x="58" y="206" class="sub">Mobile apps &amp; web platforms · Erbil, Iraq</text>
+    <rect x="58" y="152" width="64" height="5" rx="2.5" fill="var(--a)"/>
+    <text x="58" y="184" class="role">Software Engineer</text>
+    <text x="58" y="208" class="sub">Mobile apps &amp; web platforms · Erbil, Iraq</text>
   </g>
   <g class="mono">
     <text x="58" y="258" font-size="15" fill="var(--c)">$</text>
@@ -93,7 +91,7 @@
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="6s" begin="-1s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
     <rect width="138" height="250" rx="24" fill="var(--card)" stroke="var(--a)" stroke-width="2.5"/>
     <rect x="47" y="9" width="44" height="9" rx="4.5" fill="var(--line)"/>
-    <rect x="14" y="34" width="110" height="64" rx="12" fill="url(#grad)" opacity=".9"/>
+    <rect x="14" y="34" width="110" height="64" rx="12" fill="var(--a)"/>
     <circle cx="36" cy="66" r="12" fill="#fff" opacity=".9"/>
     <rect x="56" y="56" width="52" height="7" rx="3.5" fill="#fff" opacity=".9"/>
     <rect x="56" y="70" width="34" height="6" rx="3" fill="#fff" opacity=".6"/>

@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="What I build: mobile apps, web backends, systems and data.">
   <style>
-    :root { --card:#161b22; --line:#30363d; --text:#e6edf3; --muted:#8b949e; --a:#58a6ff; --b:#bc8cff; --c:#3fb950; --chip:#21262d; }
+    :root { --card:#1f1a16; --line:#3a322b; --text:#f2e9da; --muted:#a39682; --a:#e8743b; --b:#e9b44c; --c:#94b57a; --chip:#261f1a; }
     @media (prefers-color-scheme: light) {
-      :root { --card:#ffffff; --line:#d0d7de; --text:#1f2328; --muted:#59636e; --a:#0969da; --b:#8250df; --c:#1a7f37; --chip:#f3f4f6; }
+      :root { --card:#fffaf0; --line:#d9cdb8; --text:#231d17; --muted:#6f6454; --a:#c4501f; --b:#b9791a; --c:#4f7a3a; --chip:#fffaf0; }
     }
     text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
@@ -12,9 +12,9 @@
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
   <defs>
-    <linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/></linearGradient>
-    <linearGradient id="g2" x1="0" x2="1"><stop offset="0" stop-color="var(--b)"/><stop offset="1" stop-color="var(--c)"/></linearGradient>
-    <linearGradient id="g3" x1="0" x2="1"><stop offset="0" stop-color="var(--c)"/><stop offset="1" stop-color="var(--a)"/></linearGradient>
+    <linearGradient id="g1"><stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--a)"/></linearGradient>
+    <linearGradient id="g2"><stop offset="0" stop-color="var(--b)"/><stop offset="1" stop-color="var(--b)"/></linearGradient>
+    <linearGradient id="g3"><stop offset="0" stop-color="var(--c)"/><stop offset="1" stop-color="var(--c)"/></linearGradient>
   </defs>
 
   <!-- Card 1: Mobile -->
