@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg?v=3" alt="Hevar Hemin, Software Engineer. Mobile and web developer." width="100%"/>
+<img src="assets/hero.svg?v=4" alt="Hevar Hemin, Software Engineer. Mobile and web developer." width="100%"/>
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 ## 🚀 What I Build
 
-<img src="assets/build.svg?v=3" alt="Mobile, Web, and Systems & Data" width="100%"/>
+<img src="assets/build.svg?v=4" alt="Mobile, Web, and Systems & Data" width="100%"/>
 
 ---
 
@@ -68,6 +68,8 @@
     <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=swift&theme=light"/>
     <img src="https://skillicons.dev/icons?i=swift" width="52" height="52" alt="swift"/>
   </picture>
+  &nbsp;
+  <img src="assets/apple.svg?v=1" width="52" height="52" alt="Apple"/>
 </p>
 
 <h3 align="center">⚙️ Backend, Databases & Systems</h3>

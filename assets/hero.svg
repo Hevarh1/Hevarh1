@@ -20,18 +20,6 @@
     .role { font-size: 20px; fill: var(--text); font-weight: 600; }
     .sub  { font-size: 14px; fill: var(--muted); }
     .chip-t { font-size: 12px; fill: var(--text); font-weight: 600; }
-    .float1 { animation: bob 5s ease-in-out infinite; }
-    .float2 { animation: bob 6s ease-in-out -2s infinite; }
-    .float3 { animation: bob 7s ease-in-out -4s infinite; }
-    .phone  { animation: bob 6s ease-in-out -1s infinite; }
-    .cursor { animation: blink 1s steps(1) infinite; }
-    .pulse  { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: left center; }
-    .p2 { animation-delay: -.6s; } .p3 { animation-delay: -1.2s; } .p4 { animation-delay: -1.8s; }
-    .dot { animation: ping 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
-    @keyframes bob   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
-    @keyframes blink { 50% { opacity: 0; } }
-    @keyframes pulse { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(.55); } }
-    @keyframes ping  { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(2.6); opacity: 0; } }
     @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
   </style>
   <defs>
@@ -63,11 +51,11 @@
 
   <!-- Left: identity -->
   <g class="sans">
-    <g transform="translate(56 58)">
-      <circle class="dot" cx="6" cy="6" r="5" fill="var(--c)"/>
+    <svg x="56" y="58" width="1" height="1" overflow="visible">
+      <circle cx="6" cy="6" r="5" fill="var(--c)"><animate attributeName="r" values="5;13" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".8;0" dur="2s" repeatCount="indefinite"/></circle>
       <circle cx="6" cy="6" r="5" fill="var(--c)"/>
       <text x="22" y="11" class="mono sub">open to collabs &amp; freelance</text>
-    </g>
+    </svg>
     <text x="56" y="140" class="name">Hevar Hemin</text>
     <text x="58" y="180" class="role">Software Engineer</text>
     <text x="58" y="206" class="sub">Mobile apps &amp; web platforms · Erbil, Iraq</text>
@@ -75,12 +63,13 @@
   <g class="mono">
     <text x="58" y="258" font-size="15" fill="var(--c)">$</text>
     <text x="76" y="258" font-size="15" fill="var(--text)">shipping apps since age 11</text>
-    <rect class="cursor" x="326" y="245" width="9" height="17" fill="var(--a)"/>
+    <rect x="326" y="245" width="9" height="17" fill="var(--a)"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></rect>
   </g>
 
   <!-- Browser window (web) -->
-  <g transform="translate(500 70)">
-    <g class="float2">
+  <svg x="500" y="70" width="1" height="1" overflow="visible">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="6s" begin="-2s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
     <rect width="300" height="190" rx="12" fill="var(--card)" stroke="var(--line)"/>
     <path d="M0 12a12 12 0 0 1 12-12h276a12 12 0 0 1 12 12v22H0z" fill="var(--chip)"/>
     <line x1="0" y1="34" x2="300" y2="34" stroke="var(--line)"/>
@@ -91,16 +80,17 @@
       <text x="18" y="62" fill="var(--b)">Route::<tspan fill="var(--a)">get</tspan><tspan fill="var(--text)">(</tspan><tspan fill="var(--c)">'/users'</tspan><tspan fill="var(--text)">,</tspan></text>
       <text x="34" y="82" fill="var(--text)">fn() =&gt; <tspan fill="var(--b)">User::</tspan><tspan fill="var(--a)">all</tspan>());</text>
     </g>
-    <rect class="pulse"     x="18" y="102" width="200" height="8" rx="4" fill="var(--a)" opacity=".75"/>
-    <rect class="pulse p2"  x="18" y="120" width="150" height="8" rx="4" fill="var(--b)" opacity=".75"/>
-    <rect class="pulse p3"  x="18" y="138" width="230" height="8" rx="4" fill="var(--c)" opacity=".75"/>
-    <rect class="pulse p4"  x="18" y="156" width="110" height="8" rx="4" fill="var(--d)" opacity=".75"/>
+    <rect     x="18" y="102" width="200" height="8" rx="4" fill="var(--a)" opacity=".75"><animate attributeName="width" values="200;110;200" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect  x="18" y="120" width="150" height="8" rx="4" fill="var(--b)" opacity=".75"><animate attributeName="width" values="150;82;150" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect  x="18" y="138" width="230" height="8" rx="4" fill="var(--c)" opacity=".75"><animate attributeName="width" values="230;126;230" dur="2.4s" repeatCount="indefinite"/></rect>
+    <rect  x="18" y="156" width="110" height="8" rx="4" fill="var(--d)" opacity=".75"><animate attributeName="width" values="110;60;110" dur="2.4s" repeatCount="indefinite"/></rect>
     </g>
-  </g>
+  </svg>
 
   <!-- Phone (mobile) -->
-  <g transform="translate(790 48)">
-    <g class="phone">
+  <svg x="790" y="48" width="1" height="1" overflow="visible">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="6s" begin="-1s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
     <rect width="138" height="250" rx="24" fill="var(--card)" stroke="var(--a)" stroke-width="2.5"/>
     <rect x="47" y="9" width="44" height="9" rx="4.5" fill="var(--line)"/>
     <rect x="14" y="34" width="110" height="64" rx="12" fill="url(#grad)" opacity=".9"/>
@@ -117,39 +107,44 @@
     <circle cx="30" cy="196" r="6" fill="var(--b)"/><rect x="44" y="193" width="64" height="6" rx="3" fill="var(--muted)" opacity=".6"/>
     <rect x="44" y="232" width="50" height="4" rx="2" fill="var(--line)"/>
     </g>
-  </g>
+  </svg>
 
   <!-- Floating tech chips -->
   <g class="mono">
-    <g transform="translate(470 40)">
-      <g class="float1">
+    <svg x="470" y="40" width="1" height="1" overflow="visible">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
       <rect width="74" height="26" rx="13" fill="var(--chip)" stroke="var(--a)"/>
       <text x="37" y="17" text-anchor="middle" class="chip-t" fill="var(--text)">Flutter</text>
       </g>
-    </g>
-    <g transform="translate(690 28)">
-      <g class="float3">
+    </svg>
+    <svg x="690" y="28" width="1" height="1" overflow="visible">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="7s" begin="-4s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
       <rect width="70" height="26" rx="13" fill="var(--chip)" stroke="var(--b)"/>
       <text x="35" y="17" text-anchor="middle" class="chip-t">Kotlin</text>
       </g>
-    </g>
-    <g transform="translate(716 284)">
-      <g class="float2">
+    </svg>
+    <svg x="716" y="284" width="1" height="1" overflow="visible">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="6s" begin="-2s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
       <rect width="112" height="26" rx="13" fill="var(--chip)" stroke="var(--c)"/>
       <text x="56" y="17" text-anchor="middle" class="chip-t">PostgreSQL</text>
       </g>
-    </g>
-    <g transform="translate(520 288)">
-      <g class="float1">
+    </svg>
+    <svg x="520" y="288" width="1" height="1" overflow="visible">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="5s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
       <rect width="64" height="26" rx="13" fill="var(--chip)" stroke="var(--d)"/>
       <text x="32" y="17" text-anchor="middle" class="chip-t">Rust</text>
       </g>
-    </g>
-    <g transform="translate(940 120)">
-      <g class="float3">
+    </svg>
+    <svg x="940" y="120" width="1" height="1" overflow="visible">
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -9;0 0" dur="7s" begin="-4s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .6 1;.4 0 .6 1" keyTimes="0;.5;1"/>
       <rect width="46" height="26" rx="13" fill="var(--chip)" stroke="var(--a)"/>
       <text x="23" y="17" text-anchor="middle" class="chip-t">Swift</text>
       </g>
-    </g>
+    </svg>
   </g>
 </svg>
