@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Hevar Hemin, Software Engineer. Mobile and web developer." width="100%"/>
+<img src="assets/hero.svg?v=3" alt="Hevar Hemin, Software Engineer. Mobile and web developer." width="100%"/>
 
 <br/>
 
@@ -25,7 +25,7 @@
 
 ## 🚀 What I Build
 
-<img src="assets/build.svg" alt="Mobile, Web, and Systems & Data" width="100%"/>
+<img src="assets/build.svg?v=3" alt="Mobile, Web, and Systems & Data" width="100%"/>
 
 ---
 
@@ -34,27 +34,123 @@
 <h3 align="center">📱 Mobile</h3>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,flutter,dart,swift,apple&theme=dark&perline=7"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,flutter,dart,swift,apple&theme=light&perline=7"/>
-    <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,flutter,dart,swift,apple&perline=7" alt="Mobile: Android, Kotlin, Java, Flutter, Dart, Swift, Apple"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=androidstudio&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=androidstudio" width="52" height="52" alt="androidstudio"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=kotlin&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=kotlin&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=kotlin" width="52" height="52" alt="kotlin"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=java" width="52" height="52" alt="java"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=flutter&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=flutter&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=flutter" width="52" height="52" alt="flutter"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dart&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=dart&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=dart" width="52" height="52" alt="dart"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=swift&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=swift&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=swift" width="52" height="52" alt="swift"/>
   </picture>
 </p>
 
 <h3 align="center">⚙️ Backend, Databases & Systems</h3>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,wordpress,js,postgres,mysql,rust&theme=dark&perline=7"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=laravel,php,wordpress,js,postgres,mysql,rust&theme=light&perline=7"/>
-    <img src="https://skillicons.dev/icons?i=laravel,php,wordpress,js,postgres,mysql,rust&perline=7" alt="Backend: Laravel, PHP, WordPress, JavaScript, PostgreSQL, MySQL, Rust"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=laravel&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=laravel" width="52" height="52" alt="laravel"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=php&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=php&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=php" width="52" height="52" alt="php"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=wordpress&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=wordpress&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=wordpress" width="52" height="52" alt="wordpress"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=js&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=js&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=js" width="52" height="52" alt="js"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postgres&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=postgres" width="52" height="52" alt="postgres"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=mysql&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=mysql&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=mysql" width="52" height="52" alt="mysql"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=rust&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=rust" width="52" height="52" alt="rust"/>
   </picture>
 </p>
 
 <h3 align="center">🎨 Frontend & Tools</h3>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,bootstrap,react,git,postman&theme=dark&perline=6"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,bootstrap,react,git,postman&theme=light&perline=6"/>
-    <img src="https://skillicons.dev/icons?i=html,css,bootstrap,react,git,postman&perline=6" alt="Frontend: HTML5, CSS3, Bootstrap, React, Git, Postman"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=html" width="52" height="52" alt="html"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=css&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=css&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=css" width="52" height="52" alt="css"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=bootstrap&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=bootstrap&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=bootstrap" width="52" height="52" alt="bootstrap"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=react&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=react" width="52" height="52" alt="react"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=git&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=git" width="52" height="52" alt="git"/>
+  </picture>
+  &nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postman&theme=dark"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=postman&theme=light"/>
+    <img src="https://skillicons.dev/icons?i=postman" width="52" height="52" alt="postman"/>
   </picture>
 </p>
 

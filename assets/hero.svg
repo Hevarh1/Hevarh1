@@ -79,7 +79,8 @@
   </g>
 
   <!-- Browser window (web) -->
-  <g class="float2" transform="translate(500 70)">
+  <g transform="translate(500 70)">
+    <g class="float2">
     <rect width="300" height="190" rx="12" fill="var(--card)" stroke="var(--line)"/>
     <path d="M0 12a12 12 0 0 1 12-12h276a12 12 0 0 1 12 12v22H0z" fill="var(--chip)"/>
     <line x1="0" y1="34" x2="300" y2="34" stroke="var(--line)"/>
@@ -94,10 +95,12 @@
     <rect class="pulse p2"  x="18" y="120" width="150" height="8" rx="4" fill="var(--b)" opacity=".75"/>
     <rect class="pulse p3"  x="18" y="138" width="230" height="8" rx="4" fill="var(--c)" opacity=".75"/>
     <rect class="pulse p4"  x="18" y="156" width="110" height="8" rx="4" fill="var(--d)" opacity=".75"/>
+    </g>
   </g>
 
   <!-- Phone (mobile) -->
-  <g class="phone" transform="translate(790 48)">
+  <g transform="translate(790 48)">
+    <g class="phone">
     <rect width="138" height="250" rx="24" fill="var(--card)" stroke="var(--a)" stroke-width="2.5"/>
     <rect x="47" y="9" width="44" height="9" rx="4.5" fill="var(--line)"/>
     <rect x="14" y="34" width="110" height="64" rx="12" fill="url(#grad)" opacity=".9"/>
@@ -113,29 +116,40 @@
     <circle cx="30" cy="160" r="6" fill="var(--a)"/><rect x="44" y="157" width="44" height="6" rx="3" fill="var(--muted)" opacity=".6"/>
     <circle cx="30" cy="196" r="6" fill="var(--b)"/><rect x="44" y="193" width="64" height="6" rx="3" fill="var(--muted)" opacity=".6"/>
     <rect x="44" y="232" width="50" height="4" rx="2" fill="var(--line)"/>
+    </g>
   </g>
 
   <!-- Floating tech chips -->
   <g class="mono">
-    <g class="float1" transform="translate(470 40)">
+    <g transform="translate(470 40)">
+      <g class="float1">
       <rect width="74" height="26" rx="13" fill="var(--chip)" stroke="var(--a)"/>
       <text x="37" y="17" text-anchor="middle" class="chip-t" fill="var(--text)">Flutter</text>
+      </g>
     </g>
-    <g class="float3" transform="translate(690 28)">
+    <g transform="translate(690 28)">
+      <g class="float3">
       <rect width="70" height="26" rx="13" fill="var(--chip)" stroke="var(--b)"/>
       <text x="35" y="17" text-anchor="middle" class="chip-t">Kotlin</text>
+      </g>
     </g>
-    <g class="float2" transform="translate(716 284)">
+    <g transform="translate(716 284)">
+      <g class="float2">
       <rect width="112" height="26" rx="13" fill="var(--chip)" stroke="var(--c)"/>
       <text x="56" y="17" text-anchor="middle" class="chip-t">PostgreSQL</text>
+      </g>
     </g>
-    <g class="float1" transform="translate(520 288)">
+    <g transform="translate(520 288)">
+      <g class="float1">
       <rect width="64" height="26" rx="13" fill="var(--chip)" stroke="var(--d)"/>
       <text x="32" y="17" text-anchor="middle" class="chip-t">Rust</text>
+      </g>
     </g>
-    <g class="float3" transform="translate(940 120)">
+    <g transform="translate(940 120)">
+      <g class="float3">
       <rect width="46" height="26" rx="13" fill="var(--chip)" stroke="var(--a)"/>
       <text x="23" y="17" text-anchor="middle" class="chip-t">Swift</text>
+      </g>
     </g>
   </g>
 </svg>
