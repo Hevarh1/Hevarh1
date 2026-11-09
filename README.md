@@ -31,8 +31,8 @@
 
 ## 🛠️ Tech Stack
 
-### 📱 Mobile
-<p>
+<h3 align="center">📱 Mobile</h3>
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,flutter,dart,swift,apple&theme=dark&perline=7"/>
     <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=androidstudio,kotlin,java,flutter,dart,swift,apple&theme=light&perline=7"/>
@@ -40,8 +40,8 @@
   </picture>
 </p>
 
-### ⚙️ Backend, Databases & Systems
-<p>
+<h3 align="center">⚙️ Backend, Databases & Systems</h3>
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=laravel,php,wordpress,js,postgres,mysql,rust&theme=dark&perline=7"/>
     <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=laravel,php,wordpress,js,postgres,mysql,rust&theme=light&perline=7"/>
@@ -49,8 +49,8 @@
   </picture>
 </p>
 
-### 🎨 Frontend & Tools
-<p>
+<h3 align="center">🎨 Frontend & Tools</h3>
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=html,css,bootstrap,react,git,postman&theme=dark&perline=6"/>
     <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=html,css,bootstrap,react,git,postman&theme=light&perline=6"/>
