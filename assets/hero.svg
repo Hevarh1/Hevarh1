@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" width="1000" height="340" role="img" aria-label="Hevar Hemin, Software Engineer. Mobile, web and systems.">
+  <style>
+    :root {
+      --bg1: #0d1117; --bg2: #161b22; --line: #30363d;
+      --text: #e6edf3; --muted: #8b949e;
+      --a: #58a6ff; --b: #bc8cff; --c: #3fb950; --d: #f78166;
+      --card: #1c2128; --chip: #21262d;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg1: #ffffff; --bg2: #eef2f7; --line: #d0d7de;
+        --text: #1f2328; --muted: #59636e;
+        --a: #0969da; --b: #8250df; --c: #1a7f37; --d: #cf222e;
+        --card: #ffffff; --chip: #ffffff;
+      }
+    }
+    .sans { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .name { font-size: 54px; font-weight: 800; fill: url(#grad); }
+    .role { font-size: 20px; fill: var(--text); font-weight: 600; }
+    .sub  { font-size: 14px; fill: var(--muted); }
+    .chip-t { font-size: 12px; fill: var(--text); font-weight: 600; }
+    .float1 { animation: bob 5s ease-in-out infinite; }
+    .float2 { animation: bob 6s ease-in-out -2s infinite; }
+    .float3 { animation: bob 7s ease-in-out -4s infinite; }
+    .phone  { animation: bob 6s ease-in-out -1s infinite; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .pulse  { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: left center; }
+    .p2 { animation-delay: -.6s; } .p3 { animation-delay: -1.2s; } .p4 { animation-delay: -1.8s; }
+    .dot { animation: ping 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+    @keyframes bob   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(.55); } }
+    @keyframes ping  { 0% { transform: scale(1); opacity: .9; } 100% { transform: scale(2.6); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="var(--bg1)"/><stop offset="1" stop-color="var(--bg2)"/>
+    </linearGradient>
+    <linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="var(--a)"/><stop offset="1" stop-color="var(--b)"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="var(--line)" stroke-width="1" opacity=".45"/>
+    </pattern>
+    <radialGradient id="glow" cx=".78" cy=".45" r=".5">
+      <stop offset="0" stop-color="var(--b)" stop-opacity=".28"/><stop offset="1" stop-color="var(--b)" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx=".1" cy=".1" r=".5">
+      <stop offset="0" stop-color="var(--a)" stop-opacity=".22"/><stop offset="1" stop-color="var(--a)" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="round"><rect width="1000" height="340" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1000" height="340" fill="url(#bg)"/>
+    <rect width="1000" height="340" fill="url(#grid)"/>
+    <rect width="1000" height="340" fill="url(#glow)"/>
+    <rect width="1000" height="340" fill="url(#glow2)"/>
+  </g>
+  <rect x=".5" y=".5" width="999" height="339" rx="20" fill="none" stroke="var(--line)"/>
+
+  <!-- Left: identity -->
+  <g class="sans">
+    <g transform="translate(56 58)">
+      <circle class="dot" cx="6" cy="6" r="5" fill="var(--c)"/>
+      <circle cx="6" cy="6" r="5" fill="var(--c)"/>
+      <text x="22" y="11" class="mono sub">open to collabs &amp; freelance</text>
+    </g>
+    <text x="56" y="140" class="name">Hevar Hemin</text>
+    <text x="58" y="180" class="role">Software Engineer</text>
+    <text x="58" y="206" class="sub">Mobile apps &amp; web platforms · Sulaymaniyah, Iraq</text>
+  </g>
+  <g class="mono">
+    <text x="58" y="258" font-size="15" fill="var(--c)">$</text>
+    <text x="76" y="258" font-size="15" fill="var(--text)">shipping apps since age 11</text>
+    <rect class="cursor" x="326" y="245" width="9" height="17" fill="var(--a)"/>
+  </g>
+
+  <!-- Browser window (web) -->
+  <g class="float2" transform="translate(500 70)">
+    <rect width="300" height="190" rx="12" fill="var(--card)" stroke="var(--line)"/>
+    <path d="M0 12a12 12 0 0 1 12-12h276a12 12 0 0 1 12 12v22H0z" fill="var(--chip)"/>
+    <line x1="0" y1="34" x2="300" y2="34" stroke="var(--line)"/>
+    <circle cx="18" cy="17" r="5" fill="var(--d)"/><circle cx="36" cy="17" r="5" fill="#d29922"/><circle cx="54" cy="17" r="5" fill="var(--c)"/>
+    <rect x="76" y="9" width="200" height="16" rx="8" fill="var(--bg1)" stroke="var(--line)"/>
+    <text x="90" y="21" font-size="10" fill="var(--muted)" class="mono">laravel.app/api/v1</text>
+    <g class="mono" font-size="12">
+      <text x="18" y="62" fill="var(--b)">Route::<tspan fill="var(--a)">get</tspan><tspan fill="var(--text)">(</tspan><tspan fill="var(--c)">'/users'</tspan><tspan fill="var(--text)">,</tspan></text>
+      <text x="34" y="82" fill="var(--text)">fn() =&gt; <tspan fill="var(--b)">User::</tspan><tspan fill="var(--a)">all</tspan>());</text>
+    </g>
+    <rect class="pulse"     x="18" y="102" width="200" height="8" rx="4" fill="var(--a)" opacity=".75"/>
+    <rect class="pulse p2"  x="18" y="120" width="150" height="8" rx="4" fill="var(--b)" opacity=".75"/>
+    <rect class="pulse p3"  x="18" y="138" width="230" height="8" rx="4" fill="var(--c)" opacity=".75"/>
+    <rect class="pulse p4"  x="18" y="156" width="110" height="8" rx="4" fill="var(--d)" opacity=".75"/>
+  </g>
+
+  <!-- Phone (mobile) -->
+  <g class="phone" transform="translate(790 48)">
+    <rect width="138" height="250" rx="24" fill="var(--card)" stroke="var(--a)" stroke-width="2.5"/>
+    <rect x="47" y="9" width="44" height="9" rx="4.5" fill="var(--line)"/>
+    <rect x="14" y="34" width="110" height="64" rx="12" fill="url(#grad)" opacity=".9"/>
+    <circle cx="36" cy="66" r="12" fill="#fff" opacity=".9"/>
+    <rect x="56" y="56" width="52" height="7" rx="3.5" fill="#fff" opacity=".9"/>
+    <rect x="56" y="70" width="34" height="6" rx="3" fill="#fff" opacity=".6"/>
+    <g fill="var(--chip)" stroke="var(--line)">
+      <rect x="14" y="110" width="110" height="28" rx="8"/>
+      <rect x="14" y="146" width="110" height="28" rx="8"/>
+      <rect x="14" y="182" width="110" height="28" rx="8"/>
+    </g>
+    <circle cx="30" cy="124" r="6" fill="var(--c)"/><rect x="44" y="121" width="56" height="6" rx="3" fill="var(--muted)" opacity=".6"/>
+    <circle cx="30" cy="160" r="6" fill="var(--a)"/><rect x="44" y="157" width="44" height="6" rx="3" fill="var(--muted)" opacity=".6"/>
+    <circle cx="30" cy="196" r="6" fill="var(--b)"/><rect x="44" y="193" width="64" height="6" rx="3" fill="var(--muted)" opacity=".6"/>
+    <rect x="44" y="232" width="50" height="4" rx="2" fill="var(--line)"/>
+  </g>
+
+  <!-- Floating tech chips -->
+  <g class="mono">
+    <g class="float1" transform="translate(470 40)">
+      <rect width="74" height="26" rx="13" fill="var(--chip)" stroke="var(--a)"/>
+      <text x="37" y="17" text-anchor="middle" class="chip-t" fill="var(--text)">Flutter</text>
+    </g>
+    <g class="float3" transform="translate(690 28)">
+      <rect width="70" height="26" rx="13" fill="var(--chip)" stroke="var(--b)"/>
+      <text x="35" y="17" text-anchor="middle" class="chip-t">Kotlin</text>
+    </g>
+    <g class="float2" transform="translate(716 284)">
+      <rect width="112" height="26" rx="13" fill="var(--chip)" stroke="var(--c)"/>
+      <text x="56" y="17" text-anchor="middle" class="chip-t">PostgreSQL</text>
+    </g>
+    <g class="float1" transform="translate(520 288)">
+      <rect width="64" height="26" rx="13" fill="var(--chip)" stroke="var(--d)"/>
+      <text x="32" y="17" text-anchor="middle" class="chip-t">Rust</text>
+    </g>
+    <g class="float3" transform="translate(940 120)">
+      <rect width="46" height="26" rx="13" fill="var(--chip)" stroke="var(--a)"/>
+      <text x="23" y="17" text-anchor="middle" class="chip-t">Swift</text>
+    </g>
+  </g>
+</svg>
